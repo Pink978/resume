@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*             header             */
+header{
+    width:80%;
+    margin:10px auto;
+    text-align: center;
+    padding:10px;
+}
+.header{
+    margin-bottom:5px;
+}
+header .header h1{
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight:500;
+}
+.header span{
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.social-media-links a{
+      text-decoration: none;  
+      display: inline-block;
+      color:black;
+      font-size: 16px;
+      padding:0 10px;
+}
+.border{
+    border-right: 1px solid black;
+}
+
+/*      for all the section       */
+.section{
+    width:80%;
+    margin:0 auto;
+}
+.section h1{
+    color:black;
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-bottom:1px solid black;
+}
+.section h1::first-letter{
+    font-size:32px;
+}
+
+/*               work-experience         */
+
+.big-font{
+    font-size: 32px;
+}
+.company-name{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0;
+}
+.company-name p:first-child {
+    text-transform: uppercase;
+}
+.company-name p:last-child {
+    text-transform: capitalize;
+}
+.work-experience ul{
+    margin:10px 0;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+/*          skills          */
+.skill-info{
+    display:flex;
+    justify-content: flex-start;
+}
+.skill-info ul{
+    list-style-type: none;
+    margin:10px 0;
+}
+.skill-info ul li{
+    margin:5px;
+}
+.flex-1{
+    font-weight: bold;
+    margin-right:20px;
+}
+
+/*          education     */
+.edu-info{
+    display: flex;
+    justify-content: space-between;
+}
+.edu-info ul{
+    list-style-type: none;
+    margin:10px 0;
+}
+.edu-info ul li{
+    margin:5px;
+}
+/*            projects      */
+
+.project ul{
+    /* list-style-type: none; */
+    list-style-position: inside;
+    margin:10px 0;
+}
+.project ul li{
+    margin:5px; 
+}
+.project a{
+    color:blue;
+    text-decoration: none;
+    font-size:20px;
+    margin:10px 0 0 0;
+}
+/* certificate            */
+
+.certificate ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin:10px 0;
+}
+.certificate ul li{
+    margin:5px; 
+}
+.certificate a{
+    color:black;
+    text-decoration: none;
+    /* font-size:20px; */
+    margin:10px 0 0 0;
+}
+
+
+
+
